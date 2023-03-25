@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: black;
+    max-width: 100%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-size {
+    width: 100%;
+    height: 712px;
+    border-bottom: 10px solid #222222;
+    align-items: center;
+}
+
+.img-size-old{
+    width: 50%;
+    height: 712px;
+}
+
+.green{
+    color: #44D72C !important;
+}
+
+
+.header {
+    height: 61px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #44D72C;
+}
+
+.header__logo {
+    display: inline-block;
+    flex: 1;
+    padding-top: 12px;
+}
+
+.header__logo__img {
+    width: 36px;
+    height: 35px
+}
+
+.header__navbar {
+    display: inline-flex;
+    justify-content: space-around;
+    flex: 8;
+    padding: 20px;
+}
+
+.header__navbar__items a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 17px;
+}
+
+.header__navbar__items a:hover {
+    color: white;
+}
+
+.header__icon {
+    flex: 1;
+}
+
+.header__icon a:hover {
+    color: white;
+}
+
+.header__icon a {
+    color: #737373;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.event-clicker {
+    display: block;
+    background-color: #737373;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    color: white;
+    margin-top: 61px;
+}
+
+.event-clicker a {
+    color: white;
+    text-decoration: none;
+}
+
+.event-clicker a:hover {
+    text-decoration: underline;
+}
+
+.new-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.new-product__items1 {
+    background: url('/assest/img/product/faker-banner.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__items3 {
+    background: url('/assest/img/product/razer-blade-18-hero.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__items2 {
+    background: url('/assest/img/product//razer-blade-16.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__item__description {
+    color: white;
+    text-align: center;
+    padding-top: 66px;
+    cursor: pointer;
+}
+
+.new-product__item__description h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+} 
+
+.old-product__items__description h1{    
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.new-product__item__description h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.old-product__items__description h3 {
+    font-size: 19px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.old-product__items{
+    color: white;
+    text-align: center;
+    border: 4px solid #222222;
+}
+
+.new-product__item__description a{
+    text-decoration: none;
+    color: white;
+    padding-right: 16px;
+    font-size: 21px;
+}
+
+.old-product__items__description a{
+    text-decoration: none;
+    color: white;
+    padding-right: 16px;
+    font-size: 17px;
+}
+
+.new-product__item__description a:hover {
+    text-decoration: underline;
+}
+
+.old-product__items{
+    width: 50%;
+    overflow: hidden;
+}
+
+.old-product__items-img{
+    width: 100%;
+    
+}
+.old-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.old-product__items__description{
+    padding-top: 54px;
+    padding-bottom: 16px;
+}
+.app__footer__info{
+    color: white;
+    display: flex;
+}

@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: black;
+    max-width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.rainbow{
+    animation: rainbow 2.5s linear;
+	animation-iteration-count: infinite;
+}
+
+.img-size {
+    width: 100%;
+    height: 712px;
+    border-bottom: 10px solid #222222;
+    align-items: center;
+}
+
+.img-size-old{
+    width: 50%;
+    height: 712px;
+}
+
+.green{
+    color: #44D72C !important;
+}
+
+.hidenav{
+    display: block !important;
+}
+
+.header-container{
+    display: flex;
+    width: 60%;
+    height: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.header {
+    height: 61px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #44D72C;
+}
+
+.header__logo {
+    display: inline-block;
+    flex: 1;
+    padding-top: 12px;
+}
+
+.header__logo__img {
+    width: 36px;
+    height: 35px
+}
+
+.header__navbar {
+    display: inline-flex;
+    justify-content: space-around;
+    flex: 8;
+    padding-top: 20px;
+}
+
+.header__navbar__items a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 17px;
+}
+
+
+.header__icon {
+    flex: 1;
+    display: inline-block;
+}
+
+.header__icon a:hover {
+    color: white;
+}
+.header__navbar a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.header__icon a {
+    color: #737373;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.event-clicker {
+    display: block;
+    background-color: #737373;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    color: white;
+    margin-top: 61px;
+}
+
+.event-clicker a {
+    color: white;
+    text-decoration: none;
+}
+
+.event-clicker a:hover,
+.old-product__items__description a:hover{
+    text-decoration: underline;
+}
+
+.new-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.new-product__items1 {
+    background: url('/assest/img/product/faker-banner.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__items3 {
+    background: url('/assest/img/product/razer-blade-18-hero.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__items2 {
+    background: url('/assest/img/product//razer-blade-16.jpg') top center / cover no-repeat;
+    box-shadow: inset 0 80px 90px -6px black;
+}
+
+.new-product__item__description {
+    color: white;
+    text-align: center;
+    padding-top: 66px;
+    cursor: pointer;
+}
+
+.new-product__item__description h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+} 
+
+.old-product__items__description h1{    
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.new-product__item__description h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.old-product__items__description h3 {
+    font-size: 19px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.old-product__items{
+    color: white;
+    text-align: center;
+    border: 4px solid #222222;
+}
+
+.new-product__item__description a{
+    text-decoration: none;
+    color: white;
+    padding-right: 16px;
+    font-size: 21px;
+}
+
+.old-product__items__description a{
+    text-decoration: none;
+    color: white;
+    padding-right: 16px;
+    font-size: 17px;
+}
+
+.new-product__item__description a:hover {
+    text-decoration: underline;
+}
+
+.old-product__items{
+    width: 50%;
+    overflow: hidden;
+}
+
+.old-product__items-img{
+    width: 100%;
+    
+}
+.old-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.old-product__items__description{
+    padding-top: 54px;
+    padding-bottom: 16px;
+}
+
+
+.app__footer{
+    padding: 25px 0;
+}
+
+
+.app__footer__info{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 16px;
+}
+
+.app__footer__nav a{
+    text-decoration: none;
+    color: #999999;
+    padding-top: 16px;
+
+}
+
+.app__footer__nav{
+    cursor: default;
+}
+
+.app__footer__nav {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__footer__socialmedia H3{
+    font-size: 14.4px;
+    color: #44D72C;
+}
+
+.app__footer__socialmedia a {
+    color: #44D72C;
+    float: right;
+    font-size: 24px;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+.app__footer__nav a:hover,
+.footer__end-link a:hover,
+.location a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer__end{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #999999;
+    font-size: 12px;
+    display: flex;
+    padding: 24px 0 18px;
+    justify-content: space-between;
+}
+
+.footer__end a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.footer__end li{
+    display: inline-block;
+}
+
+.footer__end p{
+    display: inline-block;
+}
+
+.footer__end-link p{
+   padding-right: 12px;
+}
+
+.footer__end-link a{
+    padding-right: 12px;
+ }
+
+.location{
+    float: right;
+}
+
+.header__navbar__subnav{
+    display: none;
+    background-color: #222222;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    min-width: 284px ;
+    position: absolute;
+    right: 380px;
+    top: 50px;
+}
+
+.header__navbar__subnav__list li{
+    font-size: 14px;
+    border-top: 1px solid #555555;
+}
+
+.header__navbar__subnav__list a{
+    padding: 11.6px 0 9.6px;
+    text-decoration: none;
+}
+
+.header__navbar__subnav__list i{
+    padding-right:10px ;
+    padding-left: 20px;
+}
+
+.header__navbar__subnav__list a:hover{
+    color: #44D72C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__icon__cart{
+    position: relative;
+}
+
+.header__navbar__subnav__empty p{
+    font-size: 14px;
+    padding: 24px 20px;
+    text-align: center;
+    color: #737373;
+}
+
+
+
+
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
